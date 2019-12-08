@@ -1,9 +1,9 @@
 # Your Code Here
-def map(s)
+def map(x)
   array = []
   i = 0 
-  while i < s.length 
-    array << (yield(s[i]))
+  while i < x.length 
+    array << (yield(x[i]))
     i += 1 
   end 
   array
