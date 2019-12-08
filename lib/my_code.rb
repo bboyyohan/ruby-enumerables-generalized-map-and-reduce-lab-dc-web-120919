@@ -9,7 +9,7 @@ def map(x)
   array
 end 
 
-def reduce(array, starting_value = 0)
+def reduce(array, starting_value = nil)
 accum = starting_value
     i = 0
   else
