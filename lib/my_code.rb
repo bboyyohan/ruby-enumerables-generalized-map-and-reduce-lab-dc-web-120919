@@ -5,6 +5,7 @@ def map(s)
   while i < s.length 
     array << (yield(s[i]))
     i += 1 
-  end array
+  end 
+  array
 end 
 
