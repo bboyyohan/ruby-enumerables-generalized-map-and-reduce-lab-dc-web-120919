@@ -9,3 +9,4 @@ def map(x)
   array
 end 
 
+def reduce 
