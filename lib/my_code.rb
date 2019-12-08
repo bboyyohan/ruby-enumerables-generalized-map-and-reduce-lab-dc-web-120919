@@ -17,7 +17,7 @@ accum = starting_value
     i = 1
   end
   while i < array.length
-    accum = yield(accum, s[i])
+    accum = yield(accum, array[i])
     i += 1
   end
   accum
