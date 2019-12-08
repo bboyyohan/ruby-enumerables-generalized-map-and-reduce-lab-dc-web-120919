@@ -5,5 +5,5 @@ def my_own_map(x)
   while i < x.length 
     array << yield(x[i] * -1)
     i += 1 
-  end return array
+  end array
 end 
