@@ -10,6 +10,7 @@ def map(x)
 end 
 
 def reduce(array, starting_value = nil)
+  if starting_value
 accum = starting_value
     i = 0
   else
